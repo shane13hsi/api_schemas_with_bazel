@@ -1,0 +1,15 @@
+directories:
+  .
+  -node_modules
+  -dist
+  -bazel-out
+  -.idea
+
+targets:
+  //...
+
+additional_languages:
+  typescript
+
+ts_config_rules:
+  //:tsconfig
